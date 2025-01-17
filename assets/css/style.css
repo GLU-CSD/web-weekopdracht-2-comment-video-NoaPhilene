@@ -1,3 +1,4 @@
-.commentaar{
-    border:1px solid blue;
+.comment{
+    border:1px solid darkgreen;
+    border-width: 2px;
 }

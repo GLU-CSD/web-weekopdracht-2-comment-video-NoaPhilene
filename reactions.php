@@ -59,7 +59,7 @@ class Reactions
                         'id' => $id,
                         'name' => $name,
                         'email'=> $email,
-                        'message'=> $message
+                        'comment'=> $message
                     ];
                 }
             }

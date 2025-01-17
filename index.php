@@ -22,7 +22,6 @@ if(!empty($_POST)){
         prettyDump($setReaction['error']);
     }
     
-
 }
 
 ?>
@@ -59,12 +58,15 @@ if(!empty($_POST)){
     <p></p>
 
     <?php 
+
     foreach($getReactions as $reaction){
-        echo("<div class='message'>");
+        echo("<div class='comment'>");
         echo"<h3>".$reaction['name']."</h3>";
-        echo "<p>".$reaction['message']."</p>";
+        echo "<p>".$reaction['comment']."</p>";
         echo ("</div>");
     }
+
+    
     ?>
 
 </body>
